@@ -1,4 +1,4 @@
 import { app } from './app';
 
-
-app.listen(process.env.PORT);
+var port = 3000;
+app.listen(process.env.PORT || port);

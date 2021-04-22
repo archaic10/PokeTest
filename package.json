@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node-dev src/server.ts",
-    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "test": "jest"
   },
   "dependencies": {
